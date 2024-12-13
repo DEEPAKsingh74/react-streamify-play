@@ -1,0 +1,46 @@
+
+src/
+
+# Local environment and testing files
+.env
+.env.local
+.env.* # Any environment-specific files
+
+# Configuration files (not required for package functionality)
+*.config.js       # e.g., webpack.config.js, vite.config.js, etc.
+rollup.config.js
+.eslintrc         # ESLint configuration
+.prettierrc       # Prettier configuration
+tsconfig.json     # TypeScript configuration (if the package ships as JS)
+
+# Development files
+node_modules/
+.vscode/          # VSCode settings
+.idea/            # JetBrains IDE settings
+*.log             # Log files (e.g., npm-debug.log)
+logs/
+coverage/         # Coverage reports from testing
+tests/            # Test files and directories
+__tests__/        # Alternative test folder naming
+*.test.js         # Individual test files
+*.spec.js         # Spec files for testing
+
+# Git-related files
+.git/
+.gitignore
+
+# Exclude all .map files
+*.map
+
+
+# Operating System-specific files
+.DS_Store         # macOS file
+Thumbs.db         # Windows file
+
+# Temporary files
+*.swp             # Vim temporary files
+*.tmp             # Temporary files
+*.bak             # Backup files
+
+# Ignore personal or sensitive files
+credentials.json  # Any sensitive configuration files

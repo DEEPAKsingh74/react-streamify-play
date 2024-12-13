@@ -1,16 +1,20 @@
 {
   "name": "react-streamify-play",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "react-streamify-play is a simple yet customizable video player for reactjs.",
   "main": "dist/index.js",
   "type": "module",
   "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEEPAKsingh74/react-streamify-play.git"
+  },
+  "homepage": "https://github.com/DEEPAKsingh74/react-streamify-play",
   "peerDependencies": {
     "react": "^17.0.0"
   },
   "files": [
     "dist",
-    "assets",
     "README.md"
   ],
   "scripts": {
