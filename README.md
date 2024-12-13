@@ -13,7 +13,7 @@ style="display:flex; justify-content:center; align-items:center">
 # react-streamify-play
 ---
 
-<img src="assets/sample_example.png" alt="react-streamify-play-logo" width="100%" height="200px" style="border-radius:5px; border: 2px solid black"/> 
+<img src="assets/sample_example.png" alt="react-streamify-play-logo" width="100%" height="350px" style="border-radius:5px; border: 2px solid black"/> 
 
 
 ##### Video player for react application.
