@@ -1,7 +1,7 @@
 <div
 style="display:flex; justify-content:center; align-items:center">
-	<img src="assets/logo.png" alt="react-streamify-play-logo" width="200px" height="200px"/>
-	<img src="assets/react-icon.png" alt="react-streamify-play-logo" width="90px" height="90px"/>
+	<img src="https://raw.githubusercontent.com/DEEPAKsingh74/react-streamify-play/refs/heads/main/assets/logo.png" alt="react-streamify-play-logo" width="200px" height="200px"/>
+	<img src="https://raw.githubusercontent.com/DEEPAKsingh74/react-streamify-play/refs/heads/main/assets/react-icon.png" alt="react-streamify-play-logo" width="90px" height="90px"/>
 </div> 
 
 ![ts](https://badgen.net/badge/-/TypeScript/blue?icon=typescript&label) ![version](https://badgen.net/badge/-/1.0.0/blue?icon&label=v)
@@ -13,7 +13,7 @@ style="display:flex; justify-content:center; align-items:center">
 # react-streamify-play
 ---
 
-<img src="assets/sample_example.png" alt="react-streamify-play-logo" width="100%" height="350px" style="border-radius:5px; border: 2px solid black"/> 
+<img src="https://raw.githubusercontent.com/DEEPAKsingh74/react-streamify-play/refs/heads/main/assets/sample_example.png" alt="react-streamify-play-logo" width="100%" height="350px" style="border-radius:5px; border: 2px solid black"/> 
 
 
 ##### Video player for react application.
