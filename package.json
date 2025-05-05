@@ -11,6 +11,10 @@
   },
   "homepage": "https://github.com/DEEPAKsingh74/react-streamify-play",
   "peerDependencies": {
+    "dashjs": "^4.7.4",
+    "hls.js": "^1.5.17",
+    "lucide-react": "^0.468.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.0"
   },
   "files": [
@@ -36,20 +40,16 @@
   ],
   "author": "deepak singh bisht",
   "license": "ISC",
-  "dependencies": {
-    "dashjs": "^4.7.4",
-    "hls.js": "^1.5.17",
-    "lucide-react": "^0.468.0",
-    "prop-types": "^15.8.1",
-    "react": "^17.0.0"
-  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
+    "@types/estree": "^1.0.6",
+    "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "eslint": "^9.16.0",
     "prettier": "^3.4.2",
     "rollup": "^4.28.1",
+    "rollup-plugin-closure-compiler": "^0.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.36.0",

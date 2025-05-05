@@ -1,143 +1,144 @@
-.video-wrapper {
-	width: 70vw;
-	height: 80vh;
-	border-radius: 10px;
+/* General Styles */
+.video-wrapper,
+.video {
+  width: 100%;
+  height: 100%;
 }
 
 .video-container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background-color: rgb(31, 30, 30);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1e1e; /* Hexadecimal color for consistency */
 }
 
-.video {
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-}
-
+/* Controls Container */
 .video-controls-container {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	padding: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	color: white;
-	font-weight: 500;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: #fff; /* Use shorthand for white color */
+  font-weight: 500;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
+  );
 }
 
+/* Timeline */
 .timeline-wrapper {
-	width: 100%;
-	height: 1rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .timeline {
-	position: relative;
-	width: 99%;
-	height: 4px;
-	background-color: rgba(24, 24, 24, 0.463);
+  position: relative;
+  width: 99%;
+  height: 4px;
+  background-color: rgba(24, 24, 24, 0.46);
+}
+
+.buffer-timeline,
+.progress-timeline {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
 }
 
 .buffer-timeline {
-	position: absolute;
-	width: 50%;
-	left: 0;
-	top: 0;
-	background-color: white;
-	height: 100%;
+  width: 50%; /* Consider replacing with dynamic value */
+  background-color: #fff;
 }
 
 .progress-timeline {
-	position: absolute;
-	width: 20%;
-	left: 0;
-	top: 0;
-	background-color: red;
-	height: 100%;
+  width: 20%; /* Consider replacing with dynamic value */
+  background-color: red;
 }
 
+/* Controls */
 .control-container {
-	height: 2.4rem;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.4rem;
+  width: 100%;
 }
 
-.control-left {
-	display: flex;
-	gap: 1rem;
+.control-left,
+.control-right {
+  display: flex;
+  gap: 1rem;
 }
 
 .control-right {
-	display: flex;
-	gap: 1rem;
-	position: relative;
+  position: relative;
 }
 
+/* Settings Menu */
 .setting-wrapper {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .setting-container {
-	position: absolute;
-	bottom: 100%;
-	right: 50%;
-	transform: translateX(20%);
-	margin-bottom: 1.5rem;
-	border-radius: 7px;
-	width: 15rem;
-	height: fit-content;
-	background-color: rgba(37, 36, 36, 0.9);
-	color: rgb(218, 217, 217);
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  transform: translateX(50%); /* Center horizontally */
+  margin-bottom: 1.5rem;
+  border-radius: 7px;
+  width: 15rem;
+  background-color: rgba(37, 36, 36, 0.9);
+  color: #dad9d9;
 }
 
 .menu-list > li {
-	cursor: pointer;
-	border-radius: 7px;
-	padding: 0.5rem 1rem;
-	font-weight: 500;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 7px;
 }
 
 .menu-list > li:hover {
-	background-color: rgba(92, 92, 92, 0.826);
+  background-color: rgba(92, 92, 92, 0.83);
 }
 
 .back-button {
-	padding: 0.5rem 1rem;
-	cursor: pointer;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
+/* Loading Indicator */
 .loading-container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
-	padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
+/* Video Header */
 .video-header-wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

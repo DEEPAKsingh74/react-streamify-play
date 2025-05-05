@@ -30,7 +30,7 @@ __tests__/        # Alternative test folder naming
 .gitignore
 
 # Exclude all .map files
-*.map
+dist/*.map
 
 
 # Operating System-specific files
